@@ -9,8 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var countLabel: UILabel!
+    
+    private var count = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        updateCountLabel()
+    }
+    
+    @IBAction func onIncrementCountButtonTapped(_ sender: Any) {
+        count += 1
+        updateCountLabel()
+    }
+    
+    private func updateCountLabel() {
+        countLabel.text = "\(count)"
     }
 }
