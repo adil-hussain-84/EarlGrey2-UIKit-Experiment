@@ -8,6 +8,6 @@ In its current form, the UI Testing Bundle can be run. However, running the appl
 EarlGrey's app component has been launched without edoPort assigned. You are probably running the application under test by itself, which does not work since the embedded EarlGrey component needs its test counterpart present...
 ```
 
-#### Setup
+# Setup
 
 Clone the repository, run `pod install` in the repository's root folder and then open the Xcode workspace.
