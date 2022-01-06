@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		642F0595D614D42AF73BEC6D /* libPods-EarlGrey2Experiment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6636CFCA7EC94AC8D90463B7 /* libPods-EarlGrey2Experiment.a */; };
+		B794ABE1E66A6D4BE65F9F29 /* Pods_HelperBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8FA1F04A817B16A9A36601 /* Pods_HelperBundle.framework */; };
 		BCD1F8882785C0CA005104FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8872785C0CA005104FE /* AppDelegate.swift */; };
 		BCD1F88A2785C0CA005104FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8892785C0CA005104FE /* SceneDelegate.swift */; };
 		BCD1F88C2785C0CA005104FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F88B2785C0CA005104FE /* ViewController.swift */; };
@@ -17,6 +17,9 @@
 		BCD1F89F2785C0CE005104FE /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F89E2785C0CE005104FE /* EarlGrey2ExperimentTests.swift */; };
 		BCD1F8A92785C0CE005104FE /* EarlGrey2ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8A82785C0CE005104FE /* EarlGrey2ExperimentUITests.swift */; };
 		BCD1F8B82785EBA2005104FE /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8B72785EBA2005104FE /* EarlGrey.swift */; };
+		BCD1F8C927861F50005104FE /* HelperBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCD1F8C127860C4D005104FE /* HelperBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BCD1F8CC27862195005104FE /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCD1F8CB27862195005104FE /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BCD1F8CF2786EC5D005104FE /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */; };
 		C47BCF75DDA5FB355799B9DF /* Pods_EarlGrey2ExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BCF31AA7BC376D83E3849B /* Pods_EarlGrey2ExperimentUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,11 +38,43 @@
 			remoteGlobalIDString = BCD1F8832785C0CA005104FE;
 			remoteInfo = EarlGrey2Experiment;
 		};
+		BCD1F8C627861EC6005104FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD1F87C2785C0CA005104FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD1F8832785C0CA005104FE;
+			remoteInfo = EarlGrey2Experiment;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD1F8C827861F0D005104FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TARGET_BUILD_DIR)/../../EarlGrey2Experiment.app/EarlGreyHelperBundles";
+			dstSubfolderSpec = 0;
+			files = (
+				BCD1F8C927861F50005104FE /* HelperBundle.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD1F8CA27862129005104FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TARGET_BUILD_DIR)/../../EarlGrey2Experiment.app/Frameworks";
+			dstSubfolderSpec = 0;
+			files = (
+				BCD1F8CC27862195005104FE /* AppFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6636CFCA7EC94AC8D90463B7 /* libPods-EarlGrey2Experiment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarlGrey2Experiment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A71BBE8F1045353F7FF11D /* Pods-HelperBundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelperBundle.debug.xcconfig"; path = "Target Support Files/Pods-HelperBundle/Pods-HelperBundle.debug.xcconfig"; sourceTree = "<group>"; };
 		715B5E1A7D5D3B8AACBBBEF8 /* Pods-EarlGrey2ExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2ExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C0FDB9D13905396778A2D0E /* Pods-HelperBundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelperBundle.release.xcconfig"; path = "Target Support Files/Pods-HelperBundle/Pods-HelperBundle.release.xcconfig"; sourceTree = "<group>"; };
+		9C8FA1F04A817B16A9A36601 /* Pods_HelperBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelperBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BCF31AA7BC376D83E3849B /* Pods_EarlGrey2ExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGrey2ExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD1F8842785C0CA005104FE /* EarlGrey2Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD1F8872785C0CA005104FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +89,11 @@
 		BCD1F8A42785C0CE005104FE /* EarlGrey2ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD1F8A82785C0CE005104FE /* EarlGrey2ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentUITests.swift; sourceTree = "<group>"; };
 		BCD1F8B72785EBA2005104FE /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		BCD1F8C127860C4D005104FE /* HelperBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelperBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD1F8CB27862195005104FE /* AppFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFramework.framework; path = ../Pods/EarlGreyApp/EarlGreyApp/AppFramework.framework; sourceTree = "<group>"; };
+		BCD1F8CD2786EC5D005104FE /* HelperBundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelperBundle-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestsHost.swift; sourceTree = "<group>"; };
 		C5306B596E5F178A3E67DB2C /* Pods-EarlGrey2ExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2ExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D679D47E91DD8237AEDC7AB4 /* Pods-EarlGrey2Experiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2Experiment.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2Experiment/Pods-EarlGrey2Experiment.debug.xcconfig"; sourceTree = "<group>"; };
-		FA7D3992CFFA1F07C613C793 /* Pods-EarlGrey2Experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2Experiment.release.xcconfig"; path = "Target Support Files/Pods-EarlGrey2Experiment/Pods-EarlGrey2Experiment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642F0595D614D42AF73BEC6D /* libPods-EarlGrey2Experiment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,14 +119,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCD1F8BE27860C4D005104FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B794ABE1E66A6D4BE65F9F29 /* Pods_HelperBundle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		7F017A8139B1FD2EE6FDEBC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6636CFCA7EC94AC8D90463B7 /* libPods-EarlGrey2Experiment.a */,
 				A8BCF31AA7BC376D83E3849B /* Pods_EarlGrey2ExperimentUITests.framework */,
+				9C8FA1F04A817B16A9A36601 /* Pods_HelperBundle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,10 +142,10 @@
 		A49F3BD65B278B95682F9819 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D679D47E91DD8237AEDC7AB4 /* Pods-EarlGrey2Experiment.debug.xcconfig */,
-				FA7D3992CFFA1F07C613C793 /* Pods-EarlGrey2Experiment.release.xcconfig */,
 				C5306B596E5F178A3E67DB2C /* Pods-EarlGrey2ExperimentUITests.debug.xcconfig */,
 				715B5E1A7D5D3B8AACBBBEF8 /* Pods-EarlGrey2ExperimentUITests.release.xcconfig */,
+				31A71BBE8F1045353F7FF11D /* Pods-HelperBundle.debug.xcconfig */,
+				8C0FDB9D13905396778A2D0E /* Pods-HelperBundle.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -110,12 +154,14 @@
 		BCD1F87B2785C0CA005104FE = {
 			isa = PBXGroup;
 			children = (
+				BCD1F8CB27862195005104FE /* AppFramework.framework */,
 				BCD1F8862785C0CA005104FE /* EarlGrey2Experiment */,
 				BCD1F89D2785C0CE005104FE /* EarlGrey2ExperimentTests */,
 				BCD1F8A72785C0CE005104FE /* EarlGrey2ExperimentUITests */,
-				BCD1F8852785C0CA005104FE /* Products */,
-				A49F3BD65B278B95682F9819 /* Pods */,
 				7F017A8139B1FD2EE6FDEBC6 /* Frameworks */,
+				BCD1F8C527860C59005104FE /* HelperBundle */,
+				A49F3BD65B278B95682F9819 /* Pods */,
+				BCD1F8852785C0CA005104FE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +171,7 @@
 				BCD1F8842785C0CA005104FE /* EarlGrey2Experiment.app */,
 				BCD1F89A2785C0CE005104FE /* EarlGrey2ExperimentTests.xctest */,
 				BCD1F8A42785C0CE005104FE /* EarlGrey2ExperimentUITests.xctest */,
+				BCD1F8C127860C4D005104FE /* HelperBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +207,15 @@
 			path = EarlGrey2ExperimentUITests;
 			sourceTree = "<group>";
 		};
+		BCD1F8C527860C59005104FE /* HelperBundle */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1F8CD2786EC5D005104FE /* HelperBundle-Bridging-Header.h */,
+				BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */,
+			);
+			path = HelperBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,11 +223,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD1F8AE2785C0CE005104FE /* Build configuration list for PBXNativeTarget "EarlGrey2Experiment" */;
 			buildPhases = (
-				7C2009AB330BB5F55E29BD65 /* [CP] Check Pods Manifest.lock */,
 				BCD1F8802785C0CA005104FE /* Sources */,
 				BCD1F8812785C0CA005104FE /* Frameworks */,
 				BCD1F8822785C0CA005104FE /* Resources */,
-				A6609557AD89CD10AF404F19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +262,9 @@
 				BCD1F8A02785C0CE005104FE /* Sources */,
 				BCD1F8A12785C0CE005104FE /* Frameworks */,
 				BCD1F8A22785C0CE005104FE /* Resources */,
+				BCD1F8CA27862129005104FE /* CopyFiles */,
+				BCD1F8C827861F0D005104FE /* CopyFiles */,
+				DA7BFE2A176CD64DAD6158E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +275,25 @@
 			productName = EarlGrey2ExperimentUITests;
 			productReference = BCD1F8A42785C0CE005104FE /* EarlGrey2ExperimentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BCD1F8C027860C4D005104FE /* HelperBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD1F8C427860C4D005104FE /* Build configuration list for PBXNativeTarget "HelperBundle" */;
+			buildPhases = (
+				530DFEBF90F05A1C79D72E3D /* [CP] Check Pods Manifest.lock */,
+				BCD1F8BD27860C4D005104FE /* Sources */,
+				BCD1F8BE27860C4D005104FE /* Frameworks */,
+				BCD1F8BF27860C4D005104FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD1F8C727861EC6005104FE /* PBXTargetDependency */,
+			);
+			name = HelperBundle;
+			productName = HelperBundle;
+			productReference = BCD1F8C127860C4D005104FE /* HelperBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -240,6 +316,10 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = BCD1F8832785C0CA005104FE;
 					};
+					BCD1F8C027860C4D005104FE = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
 				};
 			};
 			buildConfigurationList = BCD1F87F2785C0CA005104FE /* Build configuration list for PBXProject "EarlGrey2Experiment" */;
@@ -258,6 +338,7 @@
 				BCD1F8832785C0CA005104FE /* EarlGrey2Experiment */,
 				BCD1F8992785C0CE005104FE /* EarlGrey2ExperimentTests */,
 				BCD1F8A32785C0CE005104FE /* EarlGrey2ExperimentUITests */,
+				BCD1F8C027860C4D005104FE /* HelperBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -287,10 +368,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCD1F8BF27860C4D005104FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7C2009AB330BB5F55E29BD65 /* [CP] Check Pods Manifest.lock */ = {
+		530DFEBF90F05A1C79D72E3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,28 +393,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EarlGrey2Experiment-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HelperBundle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6609557AD89CD10AF404F19 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2Experiment/Pods-EarlGrey2Experiment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2Experiment/Pods-EarlGrey2Experiment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2Experiment/Pods-EarlGrey2Experiment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B093A80ED79F0C99C3E8F32A /* [CP] Check Pods Manifest.lock */ = {
@@ -349,6 +420,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7BFE2A176CD64DAD6158E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -381,6 +469,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCD1F8BD27860C4D005104FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD1F8CF2786EC5D005104FE /* SwiftTestsHost.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -393,6 +489,11 @@
 			isa = PBXTargetDependency;
 			target = BCD1F8832785C0CA005104FE /* EarlGrey2Experiment */;
 			targetProxy = BCD1F8A52785C0CE005104FE /* PBXContainerItemProxy */;
+		};
+		BCD1F8C727861EC6005104FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD1F8832785C0CA005104FE /* EarlGrey2Experiment */;
+			targetProxy = BCD1F8C627861EC6005104FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -534,7 +635,6 @@
 		};
 		BCD1F8AF2785C0CE005104FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D679D47E91DD8237AEDC7AB4 /* Pods-EarlGrey2Experiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -562,7 +662,6 @@
 		};
 		BCD1F8B02785C0CE005104FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA7D3992CFFA1F07C613C793 /* Pods-EarlGrey2Experiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -654,6 +753,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
+				USER_HEADER_SEARCH_PATHS = HelperBundle;
 			};
 			name = Debug;
 		};
@@ -677,6 +777,71 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
+				USER_HEADER_SEARCH_PATHS = HelperBundle;
+			};
+			name = Release;
+		};
+		BCD1F8C227860C4D005104FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A71BBE8F1045353F7FF11D /* Pods-HelperBundle.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Experiment.app/EarlGrey2Experiment";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.HelperBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelperBundle/HelperBundle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BCD1F8C327860C4D005104FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0FDB9D13905396778A2D0E /* Pods-HelperBundle.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Experiment.app/EarlGrey2Experiment";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.HelperBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelperBundle/HelperBundle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -715,6 +880,15 @@
 			buildConfigurations = (
 				BCD1F8B52785C0CE005104FE /* Debug */,
 				BCD1F8B62785C0CE005104FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD1F8C427860C4D005104FE /* Build configuration list for PBXNativeTarget "HelperBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1F8C227860C4D005104FE /* Debug */,
+				BCD1F8C327860C4D005104FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
