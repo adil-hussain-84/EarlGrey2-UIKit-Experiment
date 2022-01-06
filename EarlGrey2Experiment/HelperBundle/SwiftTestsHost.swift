@@ -11,5 +11,7 @@ import EarlGreyTest
 @objc
 protocol SwiftTestsHost {
     
-    func myFirstMatcher() -> GREYMatcher
+    func text(_ text: String) -> GREYMatcher
+    
+    func buttonTitle(_ title: String) -> GREYMatcher
 }

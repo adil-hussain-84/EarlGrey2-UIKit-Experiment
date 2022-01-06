@@ -5,17 +5,38 @@
 //  Created by Adil Hussain on 06/01/2022.
 //
 
-import Foundation
+import UIKit
 import EarlGreyTest
 
 extension GREYHostApplicationDistantObject: SwiftTestsHost {
     
-    func myFirstMatcher() -> GREYMatcher {
+    func text(_ text: String) -> GREYMatcher {
         let matches: GREYMatchesBlock = { element in
-            return true
+            if let label = element as? UILabel {
+                return label.text == text
+            }
+            if let textField = element as? UITextField {
+                return textField.text == text
+            }
+            if let textView = element as? UITextView {
+                return textView.text == text
+            }
+            return false
         }
         return GREYElementMatcherBlock(matchesBlock: matches) { description -> Void in
-            description.appendText("myFirstMatcher()")
+            description.appendText("text('\(text)')")
+        }
+    }
+    
+    func buttonTitle(_ title: String) -> GREYMatcher {
+        let matches: GREYMatchesBlock = { element in
+            if let button = element as? UIButton {
+                return button.titleLabel?.text == title
+            }
+            return false
+        }
+        return GREYElementMatcherBlock(matchesBlock: matches) { description -> Void in
+            description.appendText("buttonTitle('\(title)')")
         }
     }
 }
