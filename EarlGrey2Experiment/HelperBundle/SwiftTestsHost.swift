@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import EarlGreyTest
 
 @objc
 protocol SwiftTestsHost {
     
-    func myFirstMatcher()
+    func myFirstMatcher() -> GREYMatcher
 }

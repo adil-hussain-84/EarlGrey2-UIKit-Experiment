@@ -20,6 +20,8 @@
 		BCD1F8C927861F50005104FE /* HelperBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCD1F8C127860C4D005104FE /* HelperBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BCD1F8CC27862195005104FE /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCD1F8CB27862195005104FE /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BCD1F8CF2786EC5D005104FE /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */; };
+		BCD1F8DB278711E5005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8DA278711E5005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */; };
+		BCD1F8DC278712C0005104FE /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */; };
 		C47BCF75DDA5FB355799B9DF /* Pods_EarlGrey2ExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BCF31AA7BC376D83E3849B /* Pods_EarlGrey2ExperimentUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,7 @@
 		BCD1F8CB27862195005104FE /* AppFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFramework.framework; path = ../Pods/EarlGreyApp/EarlGreyApp/AppFramework.framework; sourceTree = "<group>"; };
 		BCD1F8CD2786EC5D005104FE /* HelperBundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelperBundle-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestsHost.swift; sourceTree = "<group>"; };
+		BCD1F8DA278711E5005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GREYHostApplicationDistantObject+SwiftTestsHost.swift"; sourceTree = "<group>"; };
 		C5306B596E5F178A3E67DB2C /* Pods-EarlGrey2ExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGrey2ExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGrey2ExperimentUITests/Pods-EarlGrey2ExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,6 +213,7 @@
 		BCD1F8C527860C59005104FE /* HelperBundle */ = {
 			isa = PBXGroup;
 			children = (
+				BCD1F8DA278711E5005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */,
 				BCD1F8CD2786EC5D005104FE /* HelperBundle-Bridging-Header.h */,
 				BCD1F8CE2786EC5D005104FE /* SwiftTestsHost.swift */,
 			);
@@ -464,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD1F8DC278712C0005104FE /* SwiftTestsHost.swift in Sources */,
 				BCD1F8B82785EBA2005104FE /* EarlGrey.swift in Sources */,
 				BCD1F8A92785C0CE005104FE /* EarlGrey2ExperimentUITests.swift in Sources */,
 			);
@@ -473,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD1F8DB278711E5005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift in Sources */,
 				BCD1F8CF2786EC5D005104FE /* SwiftTestsHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
