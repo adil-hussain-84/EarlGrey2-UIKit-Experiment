@@ -2,10 +2,10 @@
 
 This Xcode workspace experiments with using EarlGrey 2 to test a UIKit application. It has been built by following the [EarlGrey 2.0 CocoaPods Integration](https://github.com/google/EarlGrey/blob/earlgrey2/docs/cocoapods-setup.md) guide but with two changes:
 
-1. The 'EarlGreyTest' pod is added to the UI Testing Bundle as a framework so that the 'EarlGreyTest' module can be imported in Swift files. See [Podfile](Podfile).
-1. The project's main scheme adds an "EarlGreyStandaloneMode" environment variable with value "1" as specified in [this comment](https://github.com/google/EarlGrey/issues/971#issuecomment-722955348) in [this issue](https://github.com/google/EarlGrey/issues/971).
+1. The pods are added as frameworks by means of the `use_frameworks!` declarative in the [Podfile](Podfile). This is primarily so that the `EarlGreyTest` module can be imported into Swift files.
+1. The `EarlGreyApp` pod is not added directly to the application target but to a helper bundle as described in [issue #1562](https://github.com/google/EarlGrey/issues/1562) in the EarlGrey GitHub repository. 
 
-The UI Testing Bundle in this workspace is able to execute EarlGrey actions and assertions without problem. The next step in this experiment is to enable white-box testing.
+The UI Testing Bundle in this workspace is able to execute EarlGrey actions and assertions without problem. The next step is to enable white-box testing by means of the helper bundle.
 
 # Setup
 
