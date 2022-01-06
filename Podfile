@@ -18,7 +18,7 @@ end
 post_install do |installer|
   # The 'HelperBundle' target is injected into the app
   # so weakly link the frameworks which its depends on
-  # so that the symbols in these frameworks are weakly linked to in the app
+  # so that the symbols in these frameworks are weakly linked in the app
   targets_to_weaklink=['HelperBundle']
   frameworks_to_weaklink=['AppFramework', 'eDistantObject', 'EarlGreyTest', 'XCTest']
   
