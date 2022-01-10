@@ -11,4 +11,4 @@ This Xcode workspace experiments with using EarlGrey 2 to test a UIKit applicati
 1. Clone the repository.
 1. Run `pod install` in the repository's root folder.
 1. Open the Xcode workspace.
-1. Run the tests defined in [EarlGrey2ExperimentUITests.swift](EarlGrey2ExperimentUITests/EarlGrey2ExperimentUITests.swift).
+1. Run the tests defined in [EarlGrey2ExperimentUITests.swift](EarlGrey2Experiment/EarlGrey2ExperimentUITests/EarlGrey2ExperimentUITests.swift).
